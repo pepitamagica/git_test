@@ -1,0 +1,24 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+} 
+
+.box {
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: red;
+}
+
+.floated {
+    float: left;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
